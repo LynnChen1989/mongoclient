@@ -1,4 +1,4 @@
-import { Meteor } from 'meteor/meteor';
+import {Meteor} from 'meteor/meteor';
 import {
   Connections,
   Actions,
@@ -17,8 +17,13 @@ Meteor.publish('connections', () => Connections.find());
 
 Meteor.publish('actions', () => Actions.find());
 
-Meteor.publish('dumps', () => Dumps.find({}, { sort: { date: 1 } }));
+Meteor.publish('dumps', () => Dumps.find({}, {sort: {date: 1}}));
 
 Meteor.publish('queryHistories', () => QueryHistory.find());
 
 Meteor.publish('settings', () => Settings.find());
+
+// 发布所有用户，默认的只会返回第一个用户
+Meteor.publish('allUsers', function () {
+  return Meteor.users.find();
+});

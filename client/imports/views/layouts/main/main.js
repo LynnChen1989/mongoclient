@@ -8,6 +8,7 @@ import { ReactivityProvider } from '/client/imports/facades';
 import { Connection } from '/client/imports/ui';
 import './main.html';
 import '../login/login.html';
+import '../admin/admin.html';
 
 const fixHeight = function () {
   const body = $('body');

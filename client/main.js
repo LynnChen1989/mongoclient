@@ -3,6 +3,7 @@ import '/client/imports/views/layouts/not_found/not_found.html';
 import '/client/imports/views/layouts/main/main';
 import '/client/imports/views/layouts/page_heading/page_heading';
 import '/client/imports/views/layouts/login/login';
+import '/client/imports/views/layouts/admin/admin';
 
 // pages
 import '/client/imports/views/pages/settings/settings';
@@ -23,4 +24,4 @@ import '/client/imports/views/pages/database_stats/database_stats';
 import '/lib/imports/router';
 
 // template helpers
-import '/client/imports/helpers/template_helpers/index';
+import '/client/imports/helpers/template_helpers/index'
