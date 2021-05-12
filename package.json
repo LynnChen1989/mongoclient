@@ -25,7 +25,7 @@
     "chai": "^4.2.0",
     "chai-jquery": "^2.1.0",
     "cheerio": "0.22.0",
-    "codemirror": "^5.42.0",
+    "codemirror": "^5.58.2",
     "cross-spawn": "^6.0.5",
     "datatables.net": "^1.10.13",
     "datatables.net-bs": "^1.10.13",
